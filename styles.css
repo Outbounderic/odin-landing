@@ -1,3 +1,77 @@
+/* 
+===========Style Outline===========
+font used - Roboto
+
+dark background color (hero and footer)
+#1F2937
+
+Hero Main text
+48px #F9FAF8 weight: 900
+
+Hero Secondary text, Header Link text
+18px #E5E7EB
+
+Header Logo text
+24px #F9FAF8
+
+Button Color, CTA background color
+#3882F6
+
+Information header text
+36px #1F2937 weight: 900
+
+Quote section background color
+#E5E7EB
+
+Quote text
+36px light italic #1F2937
+
+===========Style Outline===========
+*/
+
 * {
-  background-color: red;
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #e5e7eb;
+  size: 18px;
+  font-weight: 300;
+}
+
+.overlay-text {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.nav-text {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-right: 10%;
+}
+
+.hero {
+  background-color: #1f2937;
+}
+
+.logo {
+  color: #f9faf8;
+  size: 24px;
+  justify-content: center;
+  padding-left: 10%;
+  font-weight: 600;
 }
