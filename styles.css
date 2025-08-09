@@ -94,6 +94,7 @@ header {
   background-color: #3882f6;
   border: #3882f6;
   border-radius: 5px;
+  font-weight: 500;
 }
 
 .hero-img {
@@ -108,4 +109,36 @@ header {
   padding-left: 10%;
   font-weight: 600;
   text-decoration: none;
+}
+
+.info-panel {
+  text-align: center;
+  height: 300px;
+  margin-top: 40px;
+}
+
+.info-title {
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.info-window {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.info-card {
+  align-items: center;
+  padding-top: 40px;
+}
+
+.info-card img {
+  padding: 10px 0;
+  border: #3882f6;
+  border-radius: 5px;
+}
+
+.info-card p {
+  font-weight: 300;
 }
